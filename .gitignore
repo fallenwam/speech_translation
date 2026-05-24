@@ -1,0 +1,8 @@
+# Ignore environments and secrets anywhere in the project
+**/.venv/
+**/.env
+**/__pycache__/
+
+# Ignore audio tests
+*.mp3
+*.wav

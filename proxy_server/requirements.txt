@@ -1,0 +1,18 @@
+# ── Web framework ──────────────────────────────────────────────────────────
+fastapi==0.111.0          # ASGI web framework
+uvicorn[standard]==0.29.0 # ASGI server (includes websockets + httptools)
+
+# ── Speech-to-Text ─────────────────────────────────────────────────────────
+SpeechRecognition==3.10.4 # Wraps Google free web STT (and others)
+
+# ── Translation ────────────────────────────────────────────────────────────
+deepl==1.18.0             # Official DeepL Python client
+
+# ── Text-to-Speech ─────────────────────────────────────────────────────────
+gTTS==2.5.1               # Google Text-to-Speech (no API key required)
+
+# ── Environment / config ───────────────────────────────────────────────────
+python-dotenv==1.0.1      # Load DEEPL_AUTH_KEY from .env
+
+# ── Multipart form parsing (required by FastAPI for UploadFile) ────────────
+python-multipart==0.0.9
